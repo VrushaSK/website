@@ -1,0 +1,173 @@
+.catContainer {
+    text-align: center;
+    padding: 2em;
+    background-image: url('/assets/mainBack.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.rightComponent{
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 83px;
+}
+
+  
+  /* Category title */
+  .category-title {
+    text-align: left;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Content container to hold text and image side by side */
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Text content styling */
+  .text-content {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+  }
+  
+  .text-content h3 {
+    color:black;
+    font-size: 24px;
+text-align: left;  
+}
+  
+  .text-content p {
+    color: black;
+    font-size: 23px;
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  /* Get Started button */
+  .get-started-btn {
+    position: absolute;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    left: 7%;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #e68900;
+  }
+  
+  /* Image content styling */
+  .image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #ffeb3b; /* Yellow background */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button container and button styling */
+  .buttons {
+    text-align: center;
+    margin-top: 96px;
+    position: relative;
+    left: -6%;
+}
+  
+  .category-btn {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .category-btn:hover {
+    background-color: #123456;
+    color: #fff;
+  }
+
+  .active{
+    background-color: #123456;
+    color: #fff;
+  }
+
+  .image1{
+    height: 80%;
+    position: absolute;
+    z-index: 2;
+    left: 47%;
+    top: 4%;
+  }
+
+  .image2{
+    height: 64%;
+    position: absolute;
+    z-index: 1;
+    left: 49%;
+    top: 12%;
+  }
+
+  .scroll{
+position: absolute;
+left: 5%;
+top: 75%;
+  }
+
+  .emo1{
+    position: absolute;
+    top: 76%;
+    left: 10%;
+    height: 10%;
+    z-index: 1;
+  }
+
+  .emo2{
+    position: absolute;
+    top: 68%;
+    left: 30%;
+    height: 7%;
+    z-index: 6;
+    clip: auto;
+  }
+  .emo3{
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    height: 10%; 
+  }
+  .emo4{
+    position: absolute;
+    left: 80%;
+    top: 75%;
+  }
+  

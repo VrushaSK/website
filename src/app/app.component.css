@@ -1,0 +1,87 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1em;
+    flex: 0 0 auto; /* nav will take up its natural height */
+    height: 10%;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 9%;
+  }
+  
+  .logo img {
+    margin-right: 0.5em;
+  }
+  
+  .brand-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px; 
+    color: #FFAA00; 
+    font-weight: 700;
+  }
+  .brand-name2{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px; 
+    color: #FFE55E; 
+    font-weight: 700;
+  }
+  .nav-links a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+  }
+  
+  .auth-buttons {
+    display: flex;
+  }
+  
+  .auth-buttons .sign-in, .auth-buttons .register {
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .auth-buttons .sign-in {
+    background-color: #123456; /* Use the specific color from Figma */
+    color: #fff;
+  }
+  
+  .auth-buttons .register {
+    background-color: #A0D6E7; /* Use the specific color from Figma */
+    color: black
+    ;
+  }
+
+  a:active {
+    color: #FFAA00;
+  }
+
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 96vh; /* Full viewport height */
+    overflow: hidden; /* Prevent horizontal overflow */
+    
+  }
+
+  .content-container{
+    height: 90%;
+  }
+
+  .active{
+    color: red; /* Set the color for the active link */
+  }
+  
+ 
+
+  
+  
+  

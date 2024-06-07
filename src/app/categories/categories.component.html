@@ -1,0 +1,41 @@
+<div class="catContainer" style="display: flex; flex-direction: row;">
+<div  class="rightComponent">
+    <h2 class="category-title">Categories</h2>
+
+    <div class="content">
+      <div class="text-content">
+        <h3>Pet Grooming</h3>
+        <p style="width: 600px; height: 75px;">{{ paragraph }}
+        </p>
+        <button class="get-started-btn">Get Started</button>
+      </div>
+    </div>
+
+    <div class="buttons">
+        <button class="category-btn" 
+                [ngClass]="{'active': clickedButton === 'Pet Grooming'}"
+                (click)="onButtonClick('Pet Grooming')">Pet Grooming</button>
+        <button class="category-btn" 
+                [ngClass]="{'active': clickedButton === 'Pet Clinic'}"
+                (click)="onButtonClick('Pet Clinic')">Pet Clinic</button>
+        <button class="category-btn" 
+                [ngClass]="{'active': clickedButton === 'Pet Daycare'}"
+                (click)="onButtonClick('Pet Daycare')">Pet Daycare</button>
+        <button class="category-btn" 
+                [ngClass]="{'active': clickedButton === 'Pet Training'}"
+                (click)="onButtonClick('Pet Training')">Pet Training</button>
+      </div>
+  </div>
+
+  <div>
+    <img [src]="imageUrl" alt="Pet Grooming" class="image1">
+  </div>
+  <img src="assets/scroll.png" alt="" class="scroll">
+  <img [src]="imageUrl2" alt="" class="emo1">
+  <img [src]="imageUrl3" alt="" class="emo2">
+  <img [src]="imageUrl4" alt="" class="emo3">
+  <img [src]="imageUrl5" alt="" class="emo4">
+</div>
+  
+
+   
